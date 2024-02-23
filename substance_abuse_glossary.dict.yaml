@@ -5,5 +5,228 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 
+# ! 脑结构 !
+
+血脑屏障	bbb
+#原缩写为3b
+血脑屏障	eb
+
+
+
+
+
+
+# ! 受体列表 !
+
+血清素受体	htr
+
+#原缩写为htr1/ht1
+血清素1受体	htrq
+血清素1受体	htq
+血清素1亚科	htrq
+血清素1亚科	htq
+#原缩写为htr1a/ht1a
+血清素1A受体	htrqa
+血清素1A受体	htqa
+#原缩写为htr1b/ht1b
+血清素1B受体	htrqb
+血清素1B受体	htqb
+#原缩写为htr1d/ht1d
+血清素1D受体	htrqd
+血清素1D受体	htqd
+#原缩写为htr1e/ht1e
+血清素1E受体	htrqe
+血清素1E受体	htqe
+#原缩写为htr1f/ht1f
+血清素1F受体	htrqf
+血清素1F受体	htqf
+#原缩写为htr1p/ht1p
+血清素1P受体	htrqp
+血清素1P受体	htqp
+
+#原缩写为htr2/ht2
+血清素2受体	htrw
+血清素2受体	htw
+血清素2亚科	htrw
+血清素2亚科	htw
+#原缩写为htr2a/ht2a
+血清素2A受体	htrwa
+血清素2A受体	htwa
+#原缩写为htr2b/ht2b
+血清素2B受体	htrwb
+血清素2B受体	htwb
+#原缩写为htr2c/ht2c
+血清素2C受体	htrwc
+血清素2C受体	htwc
+
+#原缩写为htre/hte
+血清素3受体	htre
+血清素3受体	hte
+血清素3亚科	htre
+血清素3亚科	hte
+#原缩写为htr3a/ht3a
+血清素3A受体	htrea
+血清素3A受体	htea
+#原缩写为htr3b/ht3b
+血清素3B受体	htreb
+血清素3B受体	hteb
+#原缩写为htr3c/ht3c
+血清素3C受体	htrec
+血清素3C受体	htec
+#原缩写为htr3d/ht3d
+血清素3D受体	htred
+血清素3D受体	hted
+#原缩写为htr3e/ht3e
+血清素3E受体	htree
+血清素3E受体	htee
+
+#原缩写为htr4/ht4
+血清素4受体	htrr
+血清素4受体	htr
+
+#原缩写为htr5/ht5
+血清素5受体	htrt
+血清素5受体	htt
+血清素5亚科	htrt
+血清素5亚科	htt
+#原缩写为htr5a/ht5a
+血清素5A受体	htrta
+血清素5A受体	htta
+#原缩写未htr5b/ht5b/htr5bp/ht5bp
+血清素5B受体	htrtb
+血清素5B受体	httb
+血清素5B受体	htrtbp
+血清素5B受体	httbp
+
+#原缩写为htr6/ht6
+血清素6受体	htry
+血清素6受体	hty
+
+#原缩写为htr7/ht7
+血清素7受体	htru
+血清素7受体	htu
+
+
+# ! 物质列表 !
+
+#全名
+鸦片	opium
+#缩写
+鸦片	opi
+#罗马化缩写
+鸦片	afy
+
+#全名
+曲马多	tramadol
+#商品名
+曲马多	tramal
+曲马多	ultram
+曲马多	tramacet
+曲马多	tramundin
+曲马多	tramalgot
+#缩写&CAS
+曲马多	trd
+27203-92-5	trd
+27203-92-5	trdcas
+
+#全名
+芬太尼	fentanyl
+芬太尼	fentanil
+#商品名
+芬太尼	actiq
+芬太尼	duragesic
+芬太尼	fentora
+芬太尼	sublimaze
+#缩写&CAS
+芬太尼	fen
+芬太尼	fnt
+437-38-7	fen
+437-38-7	fencas
+437-38-7	fnt
+437-38-7	fntcas
+
+#全名
+卡芬太尼	carfentanyl
+卡芬太尼	carfentanil
+#商品名
+卡芬太尼	wildnil
+#缩写&CAS
+卡芬太尼	cfn
+卡芬太尼	cfnt
+59708-52-0	cfn
+59708-52-0	cfncas
+59708-52-0	cfnt
+59708-52-0	cfntcas
+
+#全名
+哌甲酯	methylphenidate
+#商品名
+哌甲酯	ritalin
+哌甲酯	rilatine
+哌甲酯	concerta
+哌甲酯	medikinet
+哌甲酯	adaphen
+哌甲酯	addwize
+哌甲酯	inspiral
+哌甲酯	methmild
+哌甲酯	artige
+哌甲酯	attenta
+哌甲酯	cognil
+哌甲酯	konsenidat
+哌甲酯	foquest
+哌甲酯	methylin
+哌甲酯	penid
+哌甲酯	phenida
+哌甲酯	prohiper
+哌甲酯	tradea
+#缩写
+哌甲酯	mph
+20748-11-2	mph
+20748-11-2	mphcas
+
+#全名
+右美沙芬	dextromethorphan
+#商品名
+右美沙芬	benylindm
+右美沙芬	mucinexdm
+右美沙芬	camydex
+右美沙芬	robitussin
+右美沙芬	nyquil
+右美沙芬	dimetapp
+右美沙芬	vicks
+右美沙芬	coricidin
+右美沙芬	delsym
+右美沙芬	theraflu
+右美沙芬	charcoald
+#缩写&CAS
 右美沙芬	dxm
-戊酸雌二醇	ee
+125-71-3（右美沙芬）	dxm
+125-71-3（右美沙芬）	dxmcas
+125-71-3	dxm
+125-71-3	dxmcas
+
+#全名
+地塞米松	dexamethasone
+#商品名
+地塞米松	decadron
+地塞米松	ozurdex
+地塞米松	dexycu
+#缩写&CAS
+地塞米松	dxms
+地塞米松	dxm
+50-02-2（地塞米松）	dxm
+50-02-2（地塞米松）	dxmcas
+50-02-2	dxm
+50-02-2	dxmcas
+50-02-2	dxms
+50-02-2	dxmscas
+
+#全名
+雌二醇	estradiol
+#原缩写e2
+雌二醇	ew
+雌二醇	ee
+50-28-2	ew
+50-28-2	ewcas
+50-28-2	ee
+50-28-2	eecas
