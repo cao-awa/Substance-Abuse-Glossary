@@ -284,6 +284,227 @@ use_preset_vocabulary: true
 
 # ! 物质列表 !
 
+# 烷基基
+甲基	methyl
+甲基	meth
+甲基	me
+
+乙基	ethyl
+乙基	eth
+乙基	et
+
+丙基	propyl
+丙基	prop
+丙基	pr
+
+丁基	butyl
+丁基	but
+丁基	bu
+正丁基	nbu
+仲丁基	secbu
+仲丁基	sbu
+异丁基	isobu
+异丁基	ibu
+叔丁基	tertbu
+叔丁基	tbu
+
+戊基	pentyl
+戊基	pent
+戊基	amyl
+2672-01-7	pentyl
+2672-01-7	pentylcas
+2672-01-7	pent
+2672-01-7	pentcas
+2672-01-7	amyl
+2672-01-7	amylcas
+
+# 烯烃基
+乙烯基	vinyl
+乙烯基	vin
+
+丙烯基	propynyl
+丙烯基	propyn
+
+烯丙基	allyl
+烯丙基	all
+
+# 炔烃基
+乙炔基	ethynyl
+乙炔基	ethyn
+
+# 苯甲基
+苄基	benzyl
+苄基	benz
+苯甲基	benzyl
+苯甲基	benz
+苄基	bn
+苯甲基	bn
+
+# 亚甲基
+亚甲基	methylene
+# 原缩写为h2c
+亚甲基	hwc
+
+# 次甲基
+次甲基	methine
+次甲基	methyne
+次甲基	methene
+
+# 苯基
+苯基	phenyl
+苯基	phen
+苯基	ph
+
+# 羟基
+羟基	hydroxy
+羟基	oh
+羟自由基	hydroxyl
+
+醇	alcohol
+
+羟甲基	hydroxymthyl
+羟甲基	hydroxymeth
+
+酚	phenol
+酚	benzenol
+酚	hydroxybenzene
+
+烯醇	enol
+
+炔醇	ynol
+
+# 醚
+醚	ether
+
+环氧基	epoxide
+
+# 烷氧基
+烷氧基	alkoxy
+
+甲氧基	methoxy
+
+# 氧杂
+𫫇	oxa
+氧杂	oxa
+
+# 酰基
+酰基	acyl
+酰基	ac
+
+乙酰基	acetyl
+乙酰基	acet
+乙酰基	ac
+
+丙烯酰基	acryl
+丙烯酰基	acr
+
+苯甲酰基	benzoyl
+苯甲酰基	benzo
+苯甲酰基	bz
+
+# 羰基
+羰基	carbonyl
+
+醛	aldehyde
+
+酮	ketone
+
+烯酮	ketene
+烯酮	enone
+
+炔酮	ynone
+
+# 羧基
+羧基	carboxyl
+羧基	carbox
+
+# 乙酰氧基
+乙酰氧基	acetoxy
+
+# 酯
+酯	ester
+
+# 亚甲二氧基
+亚甲二氧基	methylenedioxy
+
+
+# 氢氧根
+氢氧离子	oh
+14280-30-9	oh
+14280-30-9	ohcas
+
+# 烃
+烷烃	alkane
+石蜡烃	paraffin
+烷烃	paraffin
+
+烯烃	alkene
+
+炔烃	alkyne
+
+# 全名&缩写&CAS
+甲醇	methanol
+# 木醇/木精
+甲醇	mu chun
+甲醇	mu jing
+甲醇	meoh
+67-56-1	methanol
+67-56-1	methanolcas
+67-56-1	meoh
+67-56-1	meohcas
+
+# 全名&缩写&CAS
+乙醇	ethanol
+乙醇	etoh
+64-17-5	ethanol
+64-17-5	ethanolcas
+64-17-5	etoh
+64-17-5	etohcas
+
+# 全名&CAS
+立方烷	cubane
+277-10-1	cubane
+277-10-1	cubanecas
+
+# 全名&CAS
+甲烷	methane
+74-82-8	methane
+74-82-8	methanecas
+
+# 全名&CAS
+乙烷	ethane
+74-84-0	ethane
+74-84-0	ethanecas
+
+# 全名&CAS
+丙烷	propane
+74-98-6	propane
+74-98-6	propanecas
+
+# 全名&CAS
+丁烷	butane
+106-97-8	butane
+106-97-8	butanecas
+异丁烷	isobutane
+异丁烷	methylpropane
+75-28-5	isobutane
+75-28-5	isobutanecas
+75-28-5	methylpropane
+75-28-5	methylpropanecas
+
+# 全名&CAS
+戊烷	pentane
+109-66-0	pentane
+109-66-0	pentanecas
+异戊烷	isopentane
+78-78-4	isopentane
+78-78-4	isopentanecas
+新戊烷	neopentane
+463-82-1	neopentane
+463-82-1	neopentanecas
+
+
+
 # 全名
 鸦片	opium
 # 缩写
@@ -400,7 +621,7 @@ use_preset_vocabulary: true
 雌二醇	estradiol
 # 原缩写e2
 雌二醇	ew
-雌二醇	ee
+雌二醇	e e
 50-28-2	ew
 50-28-2	ewcas
 50-28-2	ee
