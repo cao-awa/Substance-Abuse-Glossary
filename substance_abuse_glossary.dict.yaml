@@ -30,9 +30,7 @@ use_preset_vocabulary: true
 
 禁食禁水	npo
 
-
-
-
+丢垃圾	tar
 
 
 
@@ -311,6 +309,10 @@ use_preset_vocabulary: true
 戊基	pentyl
 戊基	pent
 戊基	amyl
+2672-01-7（戊基）	pentyl
+2672-01-7（戊基）	pentylcas
+2672-01-7（戊基）	pent
+2672-01-7（戊基）	pentcas
 2672-01-7	pentyl
 2672-01-7	pentylcas
 2672-01-7	pent
@@ -481,6 +483,138 @@ use_preset_vocabulary: true
 74-98-6	propane
 74-98-6	propanecas
 
+# 全名&缩写&CAS
+三硝基苯酚	trinitrophenol
+三硝基苯酚	tnp
+三硝基苯酚	pa
+2,4,6-三硝基苯酚	trinitrophenol
+2,4,6-三硝基苯酚	tnp
+2,4,6-三硝基苯酚	pa
+苦味酸	ku wei suan
+三硝基苯酚	ku wei suan
+88-89-1	trinitrophenol
+88-89-1	trinitrophenolcas
+88-89-1	tnp
+88-89-1	tnpcas
+88-89-1	pa
+88-89-1	pacas
+
+# 全名&缩写&CAS
+三硝基甲苯	trinitrotoluene
+三硝基甲苯	tnt
+2,4,6-三硝基甲苯	trinitrotoluene
+2,4,6-三硝基甲苯	tnt
+118-96-7	trinitrotoluene
+118-96-7	trinitrotoluenecas
+118-96-7	tnt
+118-96-7	tntcas
+
+# 缩写&CAS
+黑索金	rdx
+旋风炸药	rdx
+121-82-4	rdx
+121-82-4	rdxcas
+
+# 缩写&CAS
+三过氧化三丙酮	tatp
+过氧化三环丙酮	tatp
+撒旦之母	tatp
+17088-37-8	tatp
+17088-37-8	tatpcas
+
+# 缩写&CAS
+六亚甲基三过氧化二胺	hmtd
+六甲氧胺	hmtd
+283-66-9	hmtd
+283-66-9	hmtdcas
+
+# 缩写&CAS
+环四亚甲基四硝胺	hmx
+奥克托金	hmx
+2691-41-0	hmx
+2691-41-0	hmxcas
+
+# 全名&缩写&CAS
+雷酸	oxidoazaniumylidynemethane
+雷酸	fulminic
+506-85-4	oxidoazaniumylidynemethane
+506-85-4	oxidoazaniumylidynemethanecas
+506-85-4	fulminic
+506-85-4	fulminiccas
+
+# 全名&缩写&CAS
+二硝基重氮酚	diazodinitrophenol
+二硝基重氮酚	ddnp
+4682-03-5	diazodinitrophenol
+4682-03-5	diazodinitrophenolcas
+4682-03-5	ddnp
+4682-03-5	ddnpcas
+
+# 全名&CAS
+收敛铅酸	tricinat
+史蒂芬铅	tricinat
+收敛铅酸	bis
+史蒂芬铅	bis
+收敛铅酸	bisolate
+史蒂芬铅	bisolate
+15245-44-0	tricinat
+15245-44-0	tricinatcas
+15245-44-0	bis
+15245-44-0	biscas
+15245-44-0	bisolate
+15245-44-0	bisolatecas
+
+# 全名&缩写&CAS
+雷酸汞	mercury fulminate
+雷酸汞	mf
+雷汞	mercury fulminate
+雷汞	mf
+628-86-4	mf
+628-86-4	mfcas
+
+# 全名&缩写&CAS
+三硝基苯甲硝胺	tetryl
+三硝基苯甲硝胺	tet
+特屈儿	tetryl
+特屈儿	tet
+2,4,6-三硝基苯甲硝胺	tetryl
+2,4,6-三硝基苯甲硝胺	tet
+479-45-8	tetryl
+479-45-8	tetrylcas
+479-45-8	tet
+479-45-8	tetcas
+
+# 全名&缩写&CAS
+八硝基立方烷	octanitrocubane
+八硝基立方烷	onc
+99393-63-2	octanitrocubane
+99393-63-2	octanitrocubanecas
+99393-63-2	onc
+99393-63-2	onccas
+
+# 全名&缩写&CAS
+硝酸甘油	nitroglycerin
+硝酸甘油	ntg
+硝酸甘油	ng
+55-63-0	nitroglycerin
+55-63-0	nitroglycerincas
+55-63-0	ntg
+55-63-0	ntgcas
+55-63-0	ng
+55-63-0	ngcas
+
+# 全名&缩写&CAS
+季戊四醇四硝酸酯	pentyl
+季戊四醇四硝酸酯	pent
+78-11-5（季戊四醇四硝酸酯）	pentyl
+78-11-5（季戊四醇四硝酸酯）	pentylcas
+78-11-5（季戊四醇四硝酸酯）	pent
+78-11-5（季戊四醇四硝酸酯）	pentcas
+78-11-5	pentyl
+78-11-5	pentylcas
+78-11-5	pent
+78-11-5	pentcas
+
 # 全名&CAS
 丁烷	butane
 106-97-8	butane
@@ -619,7 +753,7 @@ use_preset_vocabulary: true
 
 # 全名
 雌二醇	estradiol
-# 原缩写e2
+# 缩写&CAS | 原缩写e2
 雌二醇	ew
 雌二醇	e e
 50-28-2	ew
@@ -627,7 +761,17 @@ use_preset_vocabulary: true
 50-28-2	ee
 50-28-2	eecas
 
-
+# 全名
+睾酮	testosterone
+睾酮	te
+# 商品名
+睾酮	androderm
+睾酮	delatestryl
+# 缩写&CAS
+58-22-0	testosterone
+58-22-0	testosteronecas
+58-22-0	te
+58-22-0	tecas
 
 
 
@@ -692,7 +836,7 @@ use_preset_vocabulary: true
 镉	cecd
 铟	cein
 锡	cesn
-锑	cesbb
+锑	cesb
 碲	cete
 碘	cei
 氙	cexe
@@ -730,7 +874,7 @@ use_preset_vocabulary: true
 砹	ceat
 氡	cern
 # 第七周期
-钫	crfr
+钫	cefr
 镭	cera
 锕	ceac
 钍	ceth
