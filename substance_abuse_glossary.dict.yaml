@@ -5,10 +5,185 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 
+
+# ! 口语常用词 !
+过量用药	od
+过量用药	overdose
+
+重复给药	redose
+
+注射	ij
+注射	inj
+静脉注射	iv
+静脉推注	ivp
+肌肉注射	im
+鼻内给药	in
+舌下给药	sl
+
+非处方药	otc
+处方	rx
+
+# Around the clock
+全天持续	atc
+
+顺其自然	fiat
+
+禁食禁水	npo
+
+
+
+
+
+
+
+
+# ! 词根 !
+
+低	hypo
+高	hyper
+
+
+
+
+
+
+
+
+# ! 药代动力学 !
+
+# 解离常数
+解离常数	kd
+# 抑制常数
+抑制常数	ki
+# 结合常数
+结合常数	ka
+# 米氏常数
+米氏常数	km
+# 结合速率常数
+结合速率常数	kon
+# 解离速率常数
+解离速率常数	koff
+
+# 半数最大抑制浓度
+# 原缩写为ic50
+半数最大抑制浓度	ictp
+# 半数最大有效浓度
+# 原缩写为ec50
+半数最大有效浓度	ectp
+
+# 半数有效剂量
+半数有效剂量	edtp
+半数有效剂量	med
+# 最低有效剂量
+最低有效剂量	med
+# 最高有效剂量
+最高有效剂量	mtd
+
+
+
+
+
+
+
+
+
+# ! 毒理学 !
+
+# 致死量
+致死量	ld
+# 半数致死量
+# 原缩写为ld50
+半数致死量	ldtp
+半数致死量	mld
+
+# 致死浓度
+致死浓度	lc
+# 半数致死浓度
+# 原缩写为lc50/lct50
+半数致死浓度	lctp
+半数致死浓度	lcttp
+半数致死浓度	mlc
+
+# 中毒剂量
+中毒剂量	td
+# 半数中毒剂量
+半数中毒剂量	mtd
+#原缩写为td50
+半数中毒剂量	tdtp
+
+
+
+
+# ! 疾病 !
+
+# 精神分裂症
+# 英文&英文缩写
+精神分裂症	schizophrenia
+精神分裂症	sch
+精神分裂症	sz
+# 中文缩写
+精神分裂症	sp
+# 日文缩写
+精神分裂症	tos
+
+# 抑郁症
+# 英文&英文缩写
+抑郁症	depression
+抑郁症	dep
+# 中文缩写
+抑郁症	yuz
+# 日文缩写
+抑郁症	uts
+# 持续性抑郁症
+# 英文缩写
+持续性抑郁症	pdd
+# 中文缩写
+持续性抑郁症	cxyyz
+# 日文缩写
+持续性抑郁症	jzuts
+# 季节性抑郁症
+# 英文缩写/日文缩写
+季节性抑郁症	sad
+# 中文缩写
+季节性抑郁症	jjjz
+# 非典型抑郁症
+# 英文缩写
+非典型抑郁症	ad
+# 忧郁型抑郁症
+# 英文缩写
+忧郁型抑郁症	md
+# 重度抑郁症
+# 英文缩写
+重度抑郁症	mdd
+
+# 分裂情感性障碍
+# 英文缩写
+分裂情感性障碍	sad
+
+# 躁狂
+# 英文&英文缩写
+# TODO 缺少缩写
+躁狂症	mania
+躁狂症	manic
+# 轻度躁狂
+# 英文&英文缩写
+轻度躁狂	hypomania
+轻度躁狂	hypomanic
+轻度躁狂	hm
+
+# 人格解体障碍
+人格解体障碍	dpd
+
+
+
+
+
+
+
 # ! 脑结构 !
 
 血脑屏障	bbb
-#原缩写为3b
+# 原缩写为3b
 血脑屏障	eb
 
 
@@ -20,124 +195,124 @@ use_preset_vocabulary: true
 
 血清素受体	htr
 
-#原缩写为htr1/ht1
+# 原缩写为htr1/ht1
 血清素1受体	htrq
 血清素1受体	htq
 血清素1亚科	htrq
 血清素1亚科	htq
-#原缩写为htr1a/ht1a
+# 原缩写为htr1a/ht1a
 血清素1A受体	htrqa
 血清素1A受体	htqa
-#原缩写为htr1b/ht1b
+# 原缩写为htr1b/ht1b
 血清素1B受体	htrqb
 血清素1B受体	htqb
-#原缩写为htr1d/ht1d
+# 原缩写为htr1d/ht1d
 血清素1D受体	htrqd
 血清素1D受体	htqd
-#原缩写为htr1e/ht1e
+# 原缩写为htr1e/ht1e
 血清素1E受体	htrqe
 血清素1E受体	htqe
-#原缩写为htr1f/ht1f
+# 原缩写为htr1f/ht1f
 血清素1F受体	htrqf
 血清素1F受体	htqf
-#原缩写为htr1p/ht1p
+# 原缩写为htr1p/ht1p
 血清素1P受体	htrqp
 血清素1P受体	htqp
 
-#原缩写为htr2/ht2
+# 原缩写为htr2/ht2
 血清素2受体	htrw
 血清素2受体	htw
 血清素2亚科	htrw
 血清素2亚科	htw
-#原缩写为htr2a/ht2a
+# 原缩写为htr2a/ht2a
 血清素2A受体	htrwa
 血清素2A受体	htwa
-#原缩写为htr2b/ht2b
+# 原缩写为htr2b/ht2b
 血清素2B受体	htrwb
 血清素2B受体	htwb
-#原缩写为htr2c/ht2c
+# 原缩写为htr2c/ht2c
 血清素2C受体	htrwc
 血清素2C受体	htwc
 
-#原缩写为htre/hte
+# 原缩写为htre/hte
 血清素3受体	htre
 血清素3受体	hte
 血清素3亚科	htre
 血清素3亚科	hte
-#原缩写为htr3a/ht3a
+# 原缩写为htr3a/ht3a
 血清素3A受体	htrea
 血清素3A受体	htea
-#原缩写为htr3b/ht3b
+# 原缩写为htr3b/ht3b
 血清素3B受体	htreb
 血清素3B受体	hteb
-#原缩写为htr3c/ht3c
+# 原缩写为htr3c/ht3c
 血清素3C受体	htrec
 血清素3C受体	htec
-#原缩写为htr3d/ht3d
+# 原缩写为htr3d/ht3d
 血清素3D受体	htred
 血清素3D受体	hted
-#原缩写为htr3e/ht3e
+# 原缩写为htr3e/ht3e
 血清素3E受体	htree
 血清素3E受体	htee
 
-#原缩写为htr4/ht4
+# 原缩写为htr4/ht4
 血清素4受体	htrr
 血清素4受体	htr
 
-#原缩写为htr5/ht5
+# 原缩写为htr5/ht5
 血清素5受体	htrt
 血清素5受体	htt
 血清素5亚科	htrt
 血清素5亚科	htt
-#原缩写为htr5a/ht5a
+# 原缩写为htr5a/ht5a
 血清素5A受体	htrta
 血清素5A受体	htta
-#原缩写未htr5b/ht5b/htr5bp/ht5bp
+# 原缩写htr5b/ht5b/htr5bp/ht5bp
 血清素5B受体	htrtb
 血清素5B受体	httb
 血清素5B受体	htrtbp
 血清素5B受体	httbp
 
-#原缩写为htr6/ht6
+# 原缩写为htr6/ht6
 血清素6受体	htry
 血清素6受体	hty
 
-#原缩写为htr7/ht7
+# 原缩写为htr7/ht7
 血清素7受体	htru
 血清素7受体	htu
 
 
 # ! 物质列表 !
 
-#全名
+# 全名
 鸦片	opium
-#缩写
+# 缩写
 鸦片	opi
-#罗马化缩写
+# 罗马化缩写
 鸦片	afy
 
-#全名
+# 全名
 曲马多	tramadol
-#商品名
+# 商品名
 曲马多	tramal
 曲马多	ultram
 曲马多	tramacet
 曲马多	tramundin
 曲马多	tramalgot
-#缩写&CAS
+# 缩写&CAS
 曲马多	trd
 27203-92-5	trd
 27203-92-5	trdcas
 
-#全名
+# 全名
 芬太尼	fentanyl
 芬太尼	fentanil
-#商品名
+# 商品名
 芬太尼	actiq
 芬太尼	duragesic
 芬太尼	fentora
 芬太尼	sublimaze
-#缩写&CAS
+# 缩写&CAS
 芬太尼	fen
 芬太尼	fnt
 437-38-7	fen
@@ -145,12 +320,12 @@ use_preset_vocabulary: true
 437-38-7	fnt
 437-38-7	fntcas
 
-#全名
+# 全名
 卡芬太尼	carfentanyl
 卡芬太尼	carfentanil
-#商品名
+# 商品名
 卡芬太尼	wildnil
-#缩写&CAS
+# 缩写&CAS
 卡芬太尼	cfn
 卡芬太尼	cfnt
 59708-52-0	cfn
@@ -158,9 +333,9 @@ use_preset_vocabulary: true
 59708-52-0	cfnt
 59708-52-0	cfntcas
 
-#全名
+# 全名
 哌甲酯	methylphenidate
-#商品名
+# 商品名
 哌甲酯	ritalin
 哌甲酯	rilatine
 哌甲酯	concerta
@@ -179,14 +354,14 @@ use_preset_vocabulary: true
 哌甲酯	phenida
 哌甲酯	prohiper
 哌甲酯	tradea
-#缩写
+# 缩写
 哌甲酯	mph
 20748-11-2	mph
 20748-11-2	mphcas
 
-#全名
+# 全名
 右美沙芬	dextromethorphan
-#商品名
+# 商品名
 右美沙芬	benylindm
 右美沙芬	mucinexdm
 右美沙芬	camydex
@@ -198,20 +373,20 @@ use_preset_vocabulary: true
 右美沙芬	delsym
 右美沙芬	theraflu
 右美沙芬	charcoald
-#缩写&CAS
+# 缩写&CAS
 右美沙芬	dxm
 125-71-3（右美沙芬）	dxm
 125-71-3（右美沙芬）	dxmcas
 125-71-3	dxm
 125-71-3	dxmcas
 
-#全名
+# 全名
 地塞米松	dexamethasone
-#商品名
+# 商品名
 地塞米松	decadron
 地塞米松	ozurdex
 地塞米松	dexycu
-#缩写&CAS
+# 缩写&CAS
 地塞米松	dxms
 地塞米松	dxm
 50-02-2（地塞米松）	dxm
@@ -221,12 +396,149 @@ use_preset_vocabulary: true
 50-02-2	dxms
 50-02-2	dxmscas
 
-#全名
+# 全名
 雌二醇	estradiol
-#原缩写e2
+# 原缩写e2
 雌二醇	ew
 雌二醇	ee
 50-28-2	ew
 50-28-2	ewcas
 50-28-2	ee
 50-28-2	eecas
+
+
+
+
+
+
+
+
+# ! 化学元素 !
+# 前缀 ce- 表示 chemical element
+
+# 第一周期
+氢	ceh
+氦	cehe
+# 第二周期
+锂	celi
+铍	cebe
+硼	ceb
+碳	cec
+氮	cen
+氧	ceo
+氟	cef
+氖	cene
+# 第三周期
+钠	cena
+镁	cemg
+铝	ceal
+硅	cesi
+磷	cep
+硫	ces
+氯	cecl
+氩	cear
+# 第四周期
+钾	cek
+钙	ceca
+钪	cesc
+钛	ceti
+矾	cevb
+铬	cecr
+锰	cemn
+铁	cefe
+钴	ceco
+镍	ceni
+铜	cecu
+锌	cezn
+镓	cega
+锗	cege
+砷	ceas
+硒	cese
+溴	cebr
+氪	cekr
+# 第五周期
+铷	cerb
+锶	cesr
+钇	cey
+锆	cezr
+铌	cenb
+钼	cemo
+锝	cetc
+钌	ceru
+铑	cerh
+钯	cepd
+银	ceag
+镉	cecd
+铟	cein
+锡	cesn
+锑	cesbb
+碲	cete
+碘	cei
+氙	cexe
+# 第六周期
+铯	cecs
+钡	ceba
+镧	cela
+铈	cece
+镨	cepr
+钕	cend
+钷	cepm
+钐	cesm
+铕	ceeu
+钆	cegd
+铽	cetb
+镝	cedy
+钬	ceho
+铒	ceer
+铥	cetm
+镱	ceyb
+镥	celu
+铪	cehf
+钽	ceta
+钨	cew
+铼	cere
+锇	ceos
+铱	ceir
+铂	cept
+金	ceau
+汞	cehg
+铊	cetl
+铅	cepb
+铋	cebi
+钋	cepo
+砹	ceat
+氡	cern
+# 第七周期
+钫	crfr
+镭	cera
+锕	ceac
+钍	ceth
+镤	cepa
+铀	ceu
+镎	cenp
+钚	cepu
+镅	ceam
+锔	cecm
+锫	cebk
+锎	cecf
+锿	cees
+镄	cefm
+钔	cemd
+锘	ceno
+铹	celr
+𬬻	cerf
+𬭊	cedb
+𬭳	cesg
+𬭛	cebh
+𬭶	cehs
+鿏	cemt
+𫟼	ceds
+𬬭	cerg
+鿔	cecn
+鿭	cenh
+𫓧	cefl
+镆	cemc
+𫟷	celv
+鿬	cets
+鿫	ceog
+
