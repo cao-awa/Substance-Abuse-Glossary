@@ -172,9 +172,18 @@ use_preset_vocabulary: true
 # 人格解体障碍
 人格解体障碍	dpd
 
+# 注意缺陷多动障碍
+注意缺陷多动障碍	adhd
+注意缺陷多动障碍	add
 
+# 自闭症
+自闭症	autism
+自闭症	asd
+自闭症	asc
 
-
+# 癫痫
+癫痫	epilepsy
+癫痫	ep
 
 
 
@@ -772,6 +781,64 @@ use_preset_vocabulary: true
 58-22-0	testosteronecas
 58-22-0	te
 58-22-0	tecas
+
+# 全名
+甲基苯丙胺	methamphetamine
+甲基苯丙胺	desoxyephedrine
+# 商品名
+甲基苯丙胺	desoxyn
+# CAS
+537-46-2	methamphetamine
+537-46-2	methamphetaminecas
+537-46-2	desoxyephedrine
+537-46-2	desoxyephedrinecas
+537-46-2	desoxyn
+537-46-2	desoxyncas
+# 俗名
+甲基苯丙胺	bing du
+甲基苯丙胺	zhu rou
+
+# 全名
+苯丙胺	amphetamine
+苯丙胺	amfetamine
+# 商品名
+苯丙胺	adderall
+苯丙胺	evekeo
+苯丙胺	dexedrine
+苯丙胺	procentra
+苯丙胺	zenzedi
+苯丙胺	vyvanse
+# CAS
+300-62-9	amphetamine
+300-62-9	amphetaminecas
+300-62-9	amfetamine
+300-62-9	amfetaminecas
+# 俗名
+苯丙胺	ben bing an
+安非他明	an fei ta ming
+苯丙胺	an fei ta ming
+
+# 全名
+亚甲二氧甲基苯丙胺	methylenedioxymethamphetamine
+# 缩写&CAS
+亚甲二氧甲基苯丙胺	mdma
+42542-10-9	mdma
+42542-10-9	mdmacas
+# 俗名
+摇头丸	yao tou wan
+亚甲二氧甲基苯丙胺	yao tou wan
+
+# 全名
+二苯基脯氨醇	diphenylprolinol
+# 缩写&CAS
+# 原缩写为d2pm
+二苯基脯氨醇	dwpm
+22348-32-9	dwpm
+22348-32-9	dwpmcas
+
+
+
+
 
 
 
