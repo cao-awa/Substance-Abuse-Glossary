@@ -12,9 +12,16 @@ use_preset_vocabulary: true
 
 重复给药	redose
 
+口服	po
+灌肠	pr
+
 注射	ij
 注射	inj
 静脉注射	iv
+皮下注射	ih
+皮下注射	sc
+皮内注射	ic
+腹腔注射	ip
 静脉推注	ivp
 肌肉注射	im
 鼻内给药	in
@@ -22,6 +29,8 @@ use_preset_vocabulary: true
 
 非处方药	otc
 处方	rx
+
+立即	st
 
 # Around the clock
 全天持续	atc
@@ -309,10 +318,6 @@ use_preset_vocabulary: true
 戊基	pentyl
 戊基	pent
 戊基	amyl
-2672-01-7（戊基）	pentyl
-2672-01-7（戊基）	pentylcas
-2672-01-7（戊基）	pent
-2672-01-7（戊基）	pentcas
 2672-01-7	pentyl
 2672-01-7	pentylcas
 2672-01-7	pent
@@ -606,10 +611,6 @@ use_preset_vocabulary: true
 # 全名&缩写&CAS
 季戊四醇四硝酸酯	pentyl
 季戊四醇四硝酸酯	pent
-78-11-5（季戊四醇四硝酸酯）	pentyl
-78-11-5（季戊四醇四硝酸酯）	pentylcas
-78-11-5（季戊四醇四硝酸酯）	pent
-78-11-5（季戊四醇四硝酸酯）	pentcas
 78-11-5	pentyl
 78-11-5	pentylcas
 78-11-5	pent
@@ -785,7 +786,7 @@ use_preset_vocabulary: true
 氢	ceh
 氦	cehe
 # 第二周期
-锂	celi
+锂	ce li
 铍	cebe
 硼	ceb
 碳	cec
