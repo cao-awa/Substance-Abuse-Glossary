@@ -1,53 +1,55 @@
 ---
 name: substance_abuse_glossary
-version: "0.9"
+version: "0.1"
 sort: by_weight
 use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
 ...
 
 
 # ! 口语常用词 !
-过量用药	od
+过量用药	od	9999
 过量用药	overdose
 
-重复给药	redose
+重复给药	redose	9999
 
-口服	po
-灌肠	pr
+口服	po	9999
+灌肠	pr	9999
 
-注射	ij
-注射	inj
-静脉注射	iv
-皮下注射	ih
-皮下注射	sc
-皮内注射	ic
-腹腔注射	ip
-静脉推注	ivp
-肌肉注射	im
-鼻内给药	in
-舌下给药	sl
+注射	ij	9999
+注射	inj	9999
+静脉注射	iv	9999
+皮下注射	ih	9999
+皮下注射	sc	9999
+皮内注射	ic	9999
+腹腔注射	ip	9999
+静脉推注	ivp	9999
+肌肉注射	im	9999
+鼻内给药	in	9999
+舌下给药	sl	9999
 
-非处方药	otc
-处方	rx
+非处方药	otc	9999
+处方	rx	9999
 
-立即	st
+立即	st	9999
 
 # Around the clock
-全天持续	atc
+全天持续	atc	9999
 
-顺其自然	fiat
+顺其自然	fiat	9999
 
-禁食禁水	npo
+禁食禁水	npo	9999
 
-丢垃圾	tar
+丢垃圾	tar	9999
 
 
 
 
 # ! 词根 !
 
-低	hypo
-高	hyper
+低	hypo	9999
+高	hyper	9999
 
 
 
@@ -59,32 +61,32 @@ use_preset_vocabulary: true
 # ! 药代动力学 !
 
 # 解离常数
-解离常数	kd
+解离常数	kd	9999
 # 抑制常数
-抑制常数	ki
+抑制常数	ki	9999
 # 结合常数
-结合常数	ka
+结合常数	ka	9999
 # 米氏常数
-米氏常数	km
+米氏常数	km	9999
 # 结合速率常数
-结合速率常数	kon
+结合速率常数	kon	9999
 # 解离速率常数
-解离速率常数	koff
+解离速率常数	koff	9999
 
 # 半数最大抑制浓度
 # 原缩写为ic50
-半数最大抑制浓度	ictp
+半数最大抑制浓度	ictp	9999
 # 半数最大有效浓度
 # 原缩写为ec50
-半数最大有效浓度	ectp
+半数最大有效浓度	ectp	9999
 
 # 半数有效剂量
-半数有效剂量	edtp
-半数有效剂量	med
+半数有效剂量	edtp	9999
+半数有效剂量	med	9999
 # 最低有效剂量
-最低有效剂量	med
+最低有效剂量	med	9999
 # 最高有效剂量
-最高有效剂量	mtd
+最高有效剂量	mtd	9999
 
 
 
@@ -97,26 +99,26 @@ use_preset_vocabulary: true
 # ! 毒理学 !
 
 # 致死量
-致死量	ld
+致死量	ld	9999
 # 半数致死量
 # 原缩写为ld50
-半数致死量	ldtp
-半数致死量	mld
+半数致死量	ldtp	9999
+半数致死量	mld	9999
 
 # 致死浓度
-致死浓度	lc
+致死浓度	lc	9999
 # 半数致死浓度
 # 原缩写为lc50/lct50
-半数致死浓度	lctp
-半数致死浓度	lcttp
-半数致死浓度	mlc
+半数致死浓度	lctp	9999
+半数致死浓度	lcttp	9999
+半数致死浓度	mlc	9999
 
 # 中毒剂量
-中毒剂量	td
+中毒剂量	td	9999
 # 半数中毒剂量
-半数中毒剂量	mtd
+半数中毒剂量	mtd	9999
 #原缩写为td50
-半数中毒剂量	tdtp
+半数中毒剂量	tdtp	9999
 
 
 
@@ -126,46 +128,46 @@ use_preset_vocabulary: true
 # 精神分裂症
 # 英文&英文缩写
 精神分裂症	schizophrenia
-精神分裂症	sch
-精神分裂症	sz
+精神分裂症	sch	9999
+精神分裂症	sz	9999
 # 中文缩写
-精神分裂症	sp
+精神分裂症	sp	9999
 # 日文缩写
-精神分裂症	tos
+精神分裂症	tos	9999
 
 # 抑郁症
 # 英文&英文缩写
 抑郁症	depression
-抑郁症	dep
+抑郁症	dep	9999
 # 中文缩写
-抑郁症	yuz
+抑郁症	yuz	9999
 # 日文缩写
-抑郁症	uts
+抑郁症	uts	9999
 # 持续性抑郁症
 # 英文缩写
-持续性抑郁症	pdd
+持续性抑郁症	pdd	9999
 # 中文缩写
-持续性抑郁症	cxyyz
+持续性抑郁症	cxyyz	9999
 # 日文缩写
-持续性抑郁症	jzuts
+持续性抑郁症	jzuts	9999
 # 季节性抑郁症
 # 英文缩写/日文缩写
-季节性抑郁症	sad
+季节性抑郁症	sad	9999
 # 中文缩写
-季节性抑郁症	jjjz
+季节性抑郁症	jjjz	9999
 # 非典型抑郁症
 # 英文缩写
-非典型抑郁症	ad
+非典型抑郁症	ad	9999
 # 忧郁型抑郁症
 # 英文缩写
-忧郁型抑郁症	md
+忧郁型抑郁症	md	9999
 # 重度抑郁症
 # 英文缩写
-重度抑郁症	mdd
+重度抑郁症	mdd	9999
 
 # 分裂情感性障碍
 # 英文缩写
-分裂情感性障碍	sad
+分裂情感性障碍	sad	9999
 
 # 躁狂
 # 英文&英文缩写
@@ -176,31 +178,32 @@ use_preset_vocabulary: true
 # 英文&英文缩写
 轻度躁狂	hypomania
 轻度躁狂	hypomanic
-轻度躁狂	hm
+轻度躁狂	hm	9999
 
 # 人格解体障碍
-人格解体障碍	dpd
+人格解体障碍	dpd	9999
 
 # 注意缺陷多动障碍
-注意缺陷多动障碍	adhd
-注意缺陷多动障碍	add
+注意缺陷多动障碍	adhd	9999
+注意缺陷多动障碍	add	9999
 
 # 自闭症
 自闭症	autism
-自闭症	asd
-自闭症	asc
+自闭症	asd	9999
+自闭症	asc	9999
 
 # 癫痫
 癫痫	epilepsy
-癫痫	ep
+癫痫	ep	9999
 
 
 
 # ! 脑结构 !
 
-血脑屏障	bbb
+血脑屏障	bbb	9999
+血脑屏障	3b	9999
 # 原缩写为3b
-血脑屏障	eb
+血脑屏障	eb	9999
 
 
 
@@ -209,85 +212,85 @@ use_preset_vocabulary: true
 
 # ! 受体列表 !
 
-血清素受体	htr
+血清素受体	htr	9999
 
 # 原缩写为htr1/ht1
-血清素1受体	htrq
-血清素1受体	htq
-血清素1亚科	htrq
-血清素1亚科	htq
+血清素1受体	htrq	9999
+血清素1受体	htq	9999
+血清素1亚科	htrq	9999
+血清素1亚科	htq	9999
 # 原缩写为htr1a/ht1a
-血清素1A受体	htrqa
-血清素1A受体	htqa
+血清素1A受体	htrqa	9999
+血清素1A受体	htqa	9999
 # 原缩写为htr1b/ht1b
-血清素1B受体	htrqb
-血清素1B受体	htqb
+血清素1B受体	htrqb	9999
+血清素1B受体	htqb	9999
 # 原缩写为htr1d/ht1d
-血清素1D受体	htrqd
-血清素1D受体	htqd
+血清素1D受体	htrqd	9999
+血清素1D受体	htqd	9999
 # 原缩写为htr1e/ht1e
-血清素1E受体	htrqe
-血清素1E受体	htqe
+血清素1E受体	htrqe	9999
+血清素1E受体	htqe	9999
 # 原缩写为htr1f/ht1f
-血清素1F受体	htrqf
-血清素1F受体	htqf
+血清素1F受体	htrqf	9999
+血清素1F受体	htqf	9999
 # 原缩写为htr1p/ht1p
-血清素1P受体	htrqp
-血清素1P受体	htqp
+血清素1P受体	htrqp	9999
+血清素1P受体	htqp	9999
 
 # 原缩写为htr2/ht2
-血清素2受体	htrw
-血清素2受体	htw
-血清素2亚科	htrw
-血清素2亚科	htw
+血清素2受体	htrw	9999
+血清素2受体	htw	9999
+血清素2亚科	htrw	9999
+血清素2亚科	htw	9999
 # 原缩写为htr2a/ht2a
-血清素2A受体	htrwa
-血清素2A受体	htwa
+血清素2A受体	htrwa	9999
+血清素2A受体	htwa	9999
 # 原缩写为htr2b/ht2b
-血清素2B受体	htrwb
-血清素2B受体	htwb
+血清素2B受体	htrwb	9999
+血清素2B受体	htwb	9999
 # 原缩写为htr2c/ht2c
-血清素2C受体	htrwc
-血清素2C受体	htwc
+血清素2C受体	htrwc	9999
+血清素2C受体	htwc	9999
 
 # 原缩写为htre/hte
-血清素3受体	htre
-血清素3受体	hte
-血清素3亚科	htre
-血清素3亚科	hte
+血清素3受体	htre	9999
+血清素3受体	hte	9999
+血清素3亚科	htre	9999
+血清素3亚科	hte	9999
 # 原缩写为htr3a/ht3a
-血清素3A受体	htrea
-血清素3A受体	htea
+血清素3A受体	htrea	9999
+血清素3A受体	htea	9999
 # 原缩写为htr3b/ht3b
-血清素3B受体	htreb
-血清素3B受体	hteb
+血清素3B受体	htreb	9999
+血清素3B受体	hteb	9999
 # 原缩写为htr3c/ht3c
-血清素3C受体	htrec
-血清素3C受体	htec
+血清素3C受体	htrec	9999
+血清素3C受体	htec	9999
 # 原缩写为htr3d/ht3d
-血清素3D受体	htred
-血清素3D受体	hted
+血清素3D受体	htred	9999
+血清素3D受体	hted	9999
 # 原缩写为htr3e/ht3e
-血清素3E受体	htree
-血清素3E受体	htee
+血清素3E受体	htree	9999
+血清素3E受体	htee	9999
 
 # 原缩写为htr4/ht4
-血清素4受体	htrr
-血清素4受体	htr
+血清素4受体	htrr	9999
+血清素4受体	htr	9999
 
 # 原缩写为htr5/ht5
-血清素5受体	htrt
-血清素5受体	htt
-血清素5亚科	htrt
-血清素5亚科	htt
+血清素5受体	htrt	9999
+血清素5受体	htt	9999
+血清素5亚科	htrt	9999
+血清素5亚科	htt	9999
 # 原缩写为htr5a/ht5a
-血清素5A受体	htrta
-血清素5A受体	htta
+血清素5A受体	htrta	9999
+血清素5A受体	htta	9999
 # 原缩写htr5b/ht5b/htr5bp/ht5bp
-血清素5B受体	htrtb
-血清素5B受体	httb
-血清素5B受体	htrtbp
-血清素5B受体	httbp
+血清素5B受体	htrtb	9999
+血清素5B受体	httb	9999
+血清素5B受体	htrtbp	9999
+血清素5B受体	httbp	9999
 
 # 原缩写为htr6/ht6
 血清素6受体	htry
@@ -765,7 +768,7 @@ use_preset_vocabulary: true
 雌二醇	estradiol
 # 缩写&CAS | 原缩写e2
 雌二醇	ew
-雌二醇	e e
+雌二醇	ee
 50-28-2	ew
 50-28-2	ewcas
 50-28-2	ee
