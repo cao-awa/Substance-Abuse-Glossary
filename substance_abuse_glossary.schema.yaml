@@ -3,12 +3,14 @@
 
 schema:
   schema_id: substance_abuse_glossary
-  name: substance abuse glossary
+  name: 物质滥用术语表
   version: "0.1"
   author:
     - 草awa
+    - 草二号机
   description: |
-    www
+    物质滥用术语表是一套关于滥用物质的词库，它包含了各种药品、神经递质、生物受体、医学用语、CAS号、信号通路、疾病等各种相关的内容
+    （实际上已经大多数和物质滥用没有关系了）
   dependencies:
    - stroke
 
@@ -69,15 +71,6 @@ speller:
 translator:
   dictionary: substance_abuse_glossary
   spelling_hints: 8
-
-reverse_lookup:
-  dictionary: stroke
-  enable_completion: true
-  tips: 〔拼音〕
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
 
 punctuator:
   import_preset: default

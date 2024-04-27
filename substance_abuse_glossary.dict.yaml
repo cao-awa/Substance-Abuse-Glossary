@@ -7,49 +7,71 @@ import_tables:
   - luna_pinyin
 ...
 
+# 手机数字对照表
+# 1: q
+# 2: w
+# 3: e
+# 4: r
+# 5: t
+# 6: y
+# 7: u
+# 8: i
+# 9: o
+# 0: p
+
+# 快速访问
+https://github.com/cao-awa/Substance-Abuse-Glossary	!github	999999
+
+
+
+
+
+
+
+
 
 # ! 口语常用词 !
-过量用药	od	9999
+过量用药	od	999999
 过量用药	overdose
 
-重复给药	redose	9999
+重复给药	redose	999999
 
-口服	po	9999
-灌肠	pr	9999
+口服	po	999999
+灌肠	pr	999999
 
-注射	ij	9999
-注射	inj	9999
-静脉注射	iv	9999
-皮下注射	ih	9999
-皮下注射	sc	9999
-皮内注射	ic	9999
-腹腔注射	ip	9999
-静脉推注	ivp	9999
-肌肉注射	im	9999
-鼻内给药	in	9999
-舌下给药	sl	9999
+注射	ij	999999
+注射	inj	999999
+静脉注射	iv	999999
+皮下注射	ih	999999
+皮下注射	sc	999999
+皮内注射	ic	999999
+腹腔注射	ip	999999
+静脉推注	ivp	999999
+肌肉注射	im	999999
+鼻内给药	in	999999
+舌下给药	sl	999999
 
-非处方药	otc	9999
-处方	rx	9999
+非处方药	otc	999999
+处方	rx	999999
 
-立即	st	9999
+立即	st	999999
 
 # Around the clock
-全天持续	atc	9999
+全天持续	atc	999999
 
-顺其自然	fiat	9999
+顺其自然	fiat	999999
 
-禁食禁水	npo	9999
+禁食禁水	npo	999999
 
-丢垃圾	tar	9999
+丢垃圾	tar	999999
 
 
 
 
 # ! 词根 !
 
-低	hypo	9999
-高	hyper	9999
+低	hypo	999999
+高	hyper	999999
 
 
 
@@ -61,32 +83,36 @@ import_tables:
 # ! 药代动力学 !
 
 # 解离常数
-解离常数	kd	9999
+解离常数	kd	999999
 # 抑制常数
-抑制常数	ki	9999
+抑制常数	ki	999999
 # 结合常数
-结合常数	ka	9999
+结合常数	ka	999999
 # 米氏常数
-米氏常数	km	9999
+米氏常数	km	999999
 # 结合速率常数
-结合速率常数	kon	9999
+结合速率常数	kon	999999
 # 解离速率常数
-解离速率常数	koff	9999
+解离速率常数	koff	999999
 
 # 半数最大抑制浓度
+半数最大抑制浓度	ic50	999999
 # 原缩写为ic50
-半数最大抑制浓度	ictp	9999
+半数最大抑制浓度	ictp	999999
 # 半数最大有效浓度
+半数最大有效浓度	ec50	999999
 # 原缩写为ec50
-半数最大有效浓度	ectp	9999
+半数最大有效浓度	ectp	999999
 
 # 半数有效剂量
-半数有效剂量	edtp	9999
-半数有效剂量	med	9999
+半数有效剂量	ed50	999999
+# 原缩写为ed50
+半数有效剂量	edtp	999999
+半数有效剂量	med	999999
 # 最低有效剂量
-最低有效剂量	med	9999
+最低有效剂量	med	999999
 # 最高有效剂量
-最高有效剂量	mtd	9999
+最高有效剂量	mtd	999999
 
 
 
@@ -99,26 +125,29 @@ import_tables:
 # ! 毒理学 !
 
 # 致死量
-致死量	ld	9999
+致死量	ld	999999
 # 半数致死量
+半数致死量	ld50	999999
 # 原缩写为ld50
-半数致死量	ldtp	9999
-半数致死量	mld	9999
+半数致死量	ldtp	999999
+半数致死量	mld	999999
 
 # 致死浓度
-致死浓度	lc	9999
+致死浓度	lc	999999
 # 半数致死浓度
+半数致死浓度	lc50	999999
+半数致死浓度	lct50	999999
 # 原缩写为lc50/lct50
-半数致死浓度	lctp	9999
-半数致死浓度	lcttp	9999
-半数致死浓度	mlc	9999
+半数致死浓度	lctp	999999
+半数致死浓度	lcttp	999999
+半数致死浓度	mlc	999999
 
 # 中毒剂量
-中毒剂量	td	9999
+中毒剂量	td	999999
 # 半数中毒剂量
-半数中毒剂量	mtd	9999
+半数中毒剂量	mtd	999999
 #原缩写为td50
-半数中毒剂量	tdtp	9999
+半数中毒剂量	tdtp	999999
 
 
 
@@ -127,83 +156,83 @@ import_tables:
 
 # 精神分裂症
 # 英文&英文缩写
-精神分裂症	schizophrenia
-精神分裂症	sch	9999
-精神分裂症	sz	9999
+精神分裂症	schizophrenia	999999
+精神分裂症	sch	999999
+精神分裂症	sz	999999
 # 中文缩写
-精神分裂症	sp	9999
+精神分裂症	sp	999999
 # 日文缩写
-精神分裂症	tos	9999
+精神分裂症	tos	999999
 
 # 抑郁症
 # 英文&英文缩写
-抑郁症	depression
-抑郁症	dep	9999
+抑郁症	depression	999999
+抑郁症	dep	999999
 # 中文缩写
-抑郁症	yuz	9999
+抑郁症	yuz	999999
 # 日文缩写
-抑郁症	uts	9999
+抑郁症	uts	999999
 # 持续性抑郁症
 # 英文缩写
-持续性抑郁症	pdd	9999
+持续性抑郁症	pdd	999999
 # 中文缩写
-持续性抑郁症	cxyyz	9999
+持续性抑郁症	cxyyz	999999
 # 日文缩写
-持续性抑郁症	jzuts	9999
+持续性抑郁症	jzuts	999999
 # 季节性抑郁症
 # 英文缩写/日文缩写
-季节性抑郁症	sad	9999
+季节性抑郁症	sad	999999
 # 中文缩写
-季节性抑郁症	jjjz	9999
+季节性抑郁症	jjjz	999999
 # 非典型抑郁症
 # 英文缩写
-非典型抑郁症	ad	9999
+非典型抑郁症	ad	999999
 # 忧郁型抑郁症
 # 英文缩写
-忧郁型抑郁症	md	9999
+忧郁型抑郁症	md	999999
 # 重度抑郁症
 # 英文缩写
-重度抑郁症	mdd	9999
+重度抑郁症	mdd	999999
 
 # 分裂情感性障碍
 # 英文缩写
-分裂情感性障碍	sad	9999
+分裂情感性障碍	sad	999999
 
 # 躁狂
 # 英文&英文缩写
 # TODO 缺少缩写
-躁狂症	mania
-躁狂症	manic
+躁狂症	mania	999999
+躁狂症	manic	999999
 # 轻度躁狂
 # 英文&英文缩写
-轻度躁狂	hypomania
-轻度躁狂	hypomanic
-轻度躁狂	hm	9999
+轻度躁狂	hypomania	999999
+轻度躁狂	hypomanic	999999
+轻度躁狂	hm	999999
 
 # 人格解体障碍
-人格解体障碍	dpd	9999
+人格解体障碍	dpd	999999
 
 # 注意缺陷多动障碍
-注意缺陷多动障碍	adhd	9999
-注意缺陷多动障碍	add	9999
+注意缺陷多动障碍	adhd	999999
+注意缺陷多动障碍	add	999999
 
 # 自闭症
 自闭症	autism
-自闭症	asd	9999
-自闭症	asc	9999
+自闭症	asd	999999
+自闭症	asc	999999
 
 # 癫痫
-癫痫	epilepsy
-癫痫	ep	9999
+癫痫	epilepsy	999999
+癫痫	ep	999999
 
 
 
 # ! 脑结构 !
 
-血脑屏障	bbb	9999
-血脑屏障	3b	9999
+血脑屏障	bbb	999999
+血脑屏障	3b	999999
 # 原缩写为3b
-血脑屏障	eb	9999
+血脑屏障	eb	999999
 
 
 
@@ -212,633 +241,801 @@ import_tables:
 
 # ! 受体列表 !
 
-血清素受体	htr	9999
+# G蛋白偶联受体
+G蛋白偶联受体	gpcrs	999999
+G蛋白偶联受体	gplrs	999999
+G蛋白偶联受体	gpcr	999999
+G蛋白偶联受体	gplr	999999
+G蛋白偶联受体	7tmrs	999999
+G蛋白偶联受体	7tm1s	999999
+G蛋白偶联受体	7tmr	999999
+G蛋白偶联受体	7tm1	999999
+# 原缩写为7tmr/7tm1/7tmrs/7tm1s
+G蛋白偶联受体	utmrs	999999
+G蛋白偶联受体	utmqs	999999
+G蛋白偶联受体	utmr	999999
+G蛋白偶联受体	utmq	999999
 
+# 血清素受体
+血清素受体	htr	999999
+
+# 血清素1受体
+血清素1受体	htr1	999999
+血清素1受体	ht1	999999
+血清素1亚科	htr1	999999
+血清素1亚科	ht1	999999
 # 原缩写为htr1/ht1
-血清素1受体	htrq	9999
-血清素1受体	htq	9999
-血清素1亚科	htrq	9999
-血清素1亚科	htq	9999
+血清素1受体	htrq	999999
+血清素1受体	htq	999999
+血清素1亚科	htrq	999999
+血清素1亚科	htq	999999
+
+# 血清素1A受体
+血清素1A受体	htr1a	999999
+血清素1A受体	ht1a	999999
 # 原缩写为htr1a/ht1a
-血清素1A受体	htrqa	9999
-血清素1A受体	htqa	9999
+血清素1A受体	htrqa	999999
+血清素1A受体	htqa	999999
+
+# 血清素1B受体
+血清素1B受体	htr1b	999999
+血清素1B受体	ht1b	999999
 # 原缩写为htr1b/ht1b
-血清素1B受体	htrqb	9999
-血清素1B受体	htqb	9999
+血清素1B受体	htrqb	999999
+血清素1B受体	htqb	999999
+
+# 血清素1D受体
+血清素1D受体	htr1d	999999
+血清素1D受体	ht1d	999999
 # 原缩写为htr1d/ht1d
-血清素1D受体	htrqd	9999
-血清素1D受体	htqd	9999
+血清素1D受体	htrqd	999999
+血清素1D受体	htqd	999999
+
+# 血清素1E受体
+血清素1E受体	htr1e	999999
+血清素1E受体	ht1e	999999
 # 原缩写为htr1e/ht1e
-血清素1E受体	htrqe	9999
-血清素1E受体	htqe	9999
+血清素1E受体	htrqe	999999
+血清素1E受体	htqe	999999
+
+# 血清素1F受体
+血清素1F受体	htr1f	999999
+血清素1F受体	ht1f	999999
 # 原缩写为htr1f/ht1f
-血清素1F受体	htrqf	9999
-血清素1F受体	htqf	9999
+血清素1F受体	htrqf	999999
+血清素1F受体	htqf	999999
+
+# 血清素1P受体
+血清素1P受体	htr1p	999999
+血清素1P受体	ht1p	999999
 # 原缩写为htr1p/ht1p
-血清素1P受体	htrqp	9999
-血清素1P受体	htqp	9999
+血清素1P受体	htrqp	999999
+血清素1P受体	htqp	999999
 
+# 血清素2受体
+血清素2受体	htr2	999999
+血清素2受体	ht2	999999
+血清素2亚科	htr2	999999
+血清素2亚科	ht2	999999
 # 原缩写为htr2/ht2
-血清素2受体	htrw	9999
-血清素2受体	htw	9999
-血清素2亚科	htrw	9999
-血清素2亚科	htw	9999
+血清素2受体	htrw	999999
+血清素2受体	htw	999999
+血清素2亚科	htrw	999999
+血清素2亚科	htw	999999
+
+# 血清素2A受体
+血清素2A受体	htr2a	999999
+血清素2A受体	ht2a	999999
 # 原缩写为htr2a/ht2a
-血清素2A受体	htrwa	9999
-血清素2A受体	htwa	9999
+血清素2A受体	htrwa	999999
+血清素2A受体	htwa	999999
+
+# 血清素2B受体
+血清素2B受体	htr2b	999999
+血清素2B受体	ht2b	999999
 # 原缩写为htr2b/ht2b
-血清素2B受体	htrwb	9999
-血清素2B受体	htwb	9999
+血清素2B受体	htrwb	999999
+血清素2B受体	htwb	999999
+
+# 血清素2C受体
+血清素2C受体	htr2c	999999
+血清素2C受体	ht2c	999999
 # 原缩写为htr2c/ht2c
-血清素2C受体	htrwc	9999
-血清素2C受体	htwc	9999
+血清素2C受体	htrwc	999999
+血清素2C受体	htwc	999999
 
+# 血清素3受体
+血清素3受体	htr3	999999
+血清素3受体	ht3	999999
+血清素3亚科	htr3	999999
+血清素3亚科	ht3	999999
 # 原缩写为htre/hte
-血清素3受体	htre	9999
-血清素3受体	hte	9999
-血清素3亚科	htre	9999
-血清素3亚科	hte	9999
+血清素3受体	htre	999999
+血清素3受体	hte	999999
+血清素3亚科	htre	999999
+血清素3亚科	hte	999999
+
+# 血清素3A受体
+血清素3A受体	htr3a	999999
+血清素3A受体	ht3a	999999
 # 原缩写为htr3a/ht3a
-血清素3A受体	htrea	9999
-血清素3A受体	htea	9999
+血清素3A受体	htrea	999999
+血清素3A受体	htea	999999
+
+# 血清素3B受体
+血清素3B受体	htr3b	999999
+血清素3B受体	ht3b	999999
 # 原缩写为htr3b/ht3b
-血清素3B受体	htreb	9999
-血清素3B受体	hteb	9999
+血清素3B受体	htreb	999999
+血清素3B受体	hteb	999999
+
+# 血清素3C受体
+血清素3C受体	htr3c	999999
+血清素3C受体	ht3c	999999
 # 原缩写为htr3c/ht3c
-血清素3C受体	htrec	9999
-血清素3C受体	htec	9999
+血清素3C受体	htrec	999999
+血清素3C受体	htec	999999
+
+# 血清素3D受体
+血清素3D受体	htr3d	999999
+血清素3D受体	ht3d	999999
 # 原缩写为htr3d/ht3d
-血清素3D受体	htred	9999
-血清素3D受体	hted	9999
+血清素3D受体	htred	999999
+血清素3D受体	hted	999999
+
+# 血清素3E受体
+血清素3E受体	htr3e	999999
+血清素3E受体	ht3e	999999
 # 原缩写为htr3e/ht3e
-血清素3E受体	htree	9999
-血清素3E受体	htee	9999
+血清素3E受体	htree	999999
+血清素3E受体	htee	999999
 
+# 血清素4受体
+血清素4受体	htr4	999999
+血清素4受体	ht4	999999
 # 原缩写为htr4/ht4
-血清素4受体	htrr	9999
-血清素4受体	htr	9999
+血清素4受体	htrr	999999
+血清素4受体	htr	999999
 
+# 血清素5受体
+血清素5受体	htr5	999999
+血清素5受体	ht5	999999
+血清素5亚科	htr5	999999
+血清素5亚科	ht5	999999
 # 原缩写为htr5/ht5
-血清素5受体	htrt	9999
-血清素5受体	htt	9999
-血清素5亚科	htrt	9999
-血清素5亚科	htt	9999
+血清素5受体	htrt	999999
+血清素5受体	htt	999999
+血清素5亚科	htrt	999999
+血清素5亚科	htt	999999
+
+# 血清素5A受体
+血清素5A受体	htr5a	999999
+血清素5A受体	ht5a	999999
 # 原缩写为htr5a/ht5a
-血清素5A受体	htrta	9999
-血清素5A受体	htta	9999
+血清素5A受体	htrta	999999
+血清素5A受体	htta	999999
+
+# 血清素5B受体
+血清素5B受体	htr5b	999999
+血清素5B受体	ht5b	999999
+血清素5B受体	htr5bp	999999
+血清素5B受体	ht5bp	999999
 # 原缩写htr5b/ht5b/htr5bp/ht5bp
-血清素5B受体	htrtb	9999
-血清素5B受体	httb	9999
-血清素5B受体	htrtbp	9999
-血清素5B受体	httbp	9999
+血清素5B受体	htrtb	999999
+血清素5B受体	httb	999999
+血清素5B受体	htrtbp	999999
+血清素5B受体	httbp	999999
 
+# 血清素6受体
+血清素6受体	htr6	999999
+血清素6受体	ht6	999999
 # 原缩写为htr6/ht6
-血清素6受体	htry
-血清素6受体	hty
+血清素6受体	htry	999999
+血清素6受体	hty	999999
 
+# 血清素7受体
+血清素7受体	htr7	999999
+血清素7受体	ht7	999999
 # 原缩写为htr7/ht7
-血清素7受体	htru
-血清素7受体	htu
+血清素7受体	htru	999999
+血清素7受体	htu	999999
+
+# 组胺受体
+组胺受体	hr	999999
+
+# 组胺H1受体
+组胺H1受体	h1r	999999
+组胺H1受体	hrh1	999999
+# 原缩写为h1r/hrh1
+组胺H1受体	hqr	999999
+组胺H1受体	hrhq	999999
+
+# 组胺H2受体
+组胺H2受体	h2r	999999
+组胺H2受体	hrh2	999999
+# 原缩写为h2r/hrh2
+组胺H2受体	hwr	999999
+组胺H2受体	hrhw	999999
+
+# 组胺H3受体
+组胺H3受体	h3r	999999
+组胺H3受体	hrh3	999999
+# 原缩写为h3r/hrh3
+组胺H3受体	her	999999
+组胺H3受体	hrhe	999999
+
+# 组胺H4受体
+组胺H4受体	h4r	999999
+组胺H4受体	hrh4	999999
+# 原缩写为h4r/hrh4
+组胺H4受体	hrr	999999
+组胺H4受体	hrhr	999999
+
+# Ryanodine受体
+Ryanodine受体	ryr	999999
+
+Ryanodine受体1	ryr1	999999
+Ryanodine受体2	ryr2	999999
+Ryanodine受体3	ryr3	999999
+
+# 原缩写为ryr1/ryr2/ryr3
+Ryanodine受体1	ryrq	999999
+Ryanodine受体2	ryrw	999999
+Ryanodine受体3	ryre	999999
+
+
+
+
+
+
+
+
 
 
 # ! 物质列表 !
 
 # 烷基基
-甲基	methyl
-甲基	meth
-甲基	me
+甲基	methyl	999999
+甲基	meth	999999
+甲基	me	999999
 
-乙基	ethyl
-乙基	eth
-乙基	et
+乙基	ethyl	999999
+乙基	eth	999999
+乙基	et	999999
 
-丙基	propyl
-丙基	prop
-丙基	pr
+丙基	propyl	999999
+丙基	prop	999999
+丙基	pr	999999
 
-丁基	butyl
-丁基	but
-丁基	bu
-正丁基	nbu
-仲丁基	secbu
-仲丁基	sbu
-异丁基	isobu
-异丁基	ibu
-叔丁基	tertbu
-叔丁基	tbu
+丁基	butyl	999999
+丁基	but	999999
+丁基	bu	999999
+正丁基	nbu	999999
+仲丁基	secbu	999999
+仲丁基	sbu	999999
+异丁基	isobu	999999
+异丁基	ibu	999999
+叔丁基	tertbu	999999
+叔丁基	tbu	999999
 
-戊基	pentyl
-戊基	pent
-戊基	amyl
-2672-01-7	pentyl
-2672-01-7	pentylcas
-2672-01-7	pent
-2672-01-7	pentcas
-2672-01-7	amyl
-2672-01-7	amylcas
+戊基	pentyl	999999
+戊基	pent	999999
+戊基	amyl	999999
+2672-01-7	pentyl	999999
+2672-01-7	pentylcas	999999
+2672-01-7	pent	999999
+2672-01-7	pentcas	999999
+2672-01-7	amyl	999999
+2672-01-7	amylcas	999999
 
 # 烯烃基
-乙烯基	vinyl
-乙烯基	vin
+乙烯基	vinyl	999999
+乙烯基	vin	999999
 
-丙烯基	propynyl
-丙烯基	propyn
+丙烯基	propynyl	999999
+丙烯基	propyn	999999
 
-烯丙基	allyl
-烯丙基	all
+烯丙基	allyl	999999
+烯丙基	all	999999
 
 # 炔烃基
-乙炔基	ethynyl
-乙炔基	ethyn
+乙炔基	ethynyl	999999
+乙炔基	ethyn	999999
 
 # 苯甲基
-苄基	benzyl
-苄基	benz
-苯甲基	benzyl
-苯甲基	benz
-苄基	bn
-苯甲基	bn
+苄基	benzyl	999999
+苄基	benz	999999
+苯甲基	benzyl	999999
+苯甲基	benz	999999
+苄基	bn	999999
+苯甲基	bn	999999
 
 # 亚甲基
-亚甲基	methylene
+亚甲基	methylene	999999
 # 原缩写为h2c
-亚甲基	hwc
+亚甲基	hwc	999999
 
 # 次甲基
-次甲基	methine
-次甲基	methyne
-次甲基	methene
+次甲基	methine	999999
+次甲基	methyne	999999
+次甲基	methene	999999
 
 # 苯基
-苯基	phenyl
-苯基	phen
-苯基	ph
+苯基	phenyl	999999
+苯基	phen	999999
+苯基	ph	999999
 
 # 羟基
-羟基	hydroxy
-羟基	oh
-羟自由基	hydroxyl
+羟基	hydroxy	999999
+羟基	oh	999999
+羟自由基	hydroxyl	999999
 
-醇	alcohol
+醇	alcohol	999999
 
-羟甲基	hydroxymthyl
-羟甲基	hydroxymeth
+羟甲基	hydroxymthyl	999999
+羟甲基	hydroxymeth	999999
 
-酚	phenol
-酚	benzenol
-酚	hydroxybenzene
+酚	phenol	999999
+酚	benzenol	999999
+酚	hydroxybenzene	999999
 
-烯醇	enol
+烯醇	enol	999999
 
-炔醇	ynol
+炔醇	ynol	999999
 
 # 醚
-醚	ether
+醚	ether	999999
 
-环氧基	epoxide
+环氧基	epoxide	999999
 
 # 烷氧基
-烷氧基	alkoxy
+烷氧基	alkoxy	999999
 
-甲氧基	methoxy
+甲氧基	methoxy	999999
 
 # 氧杂
-𫫇	oxa
-氧杂	oxa
+𫫇	oxa	999999
+氧杂	oxa	999999
 
 # 酰基
-酰基	acyl
-酰基	ac
+酰基	acyl	999999
+酰基	ac	999999
 
-乙酰基	acetyl
-乙酰基	acet
-乙酰基	ac
+乙酰基	acetyl	999999
+乙酰基	acet	999999
+乙酰基	ac	999999
 
-丙烯酰基	acryl
-丙烯酰基	acr
+丙烯酰基	acryl	999999
+丙烯酰基	acr	999999
 
-苯甲酰基	benzoyl
-苯甲酰基	benzo
-苯甲酰基	bz
+苯甲酰基	benzoyl	999999
+苯甲酰基	benzo	999999
+苯甲酰基	bz	999999
 
 # 羰基
-羰基	carbonyl
+羰基	carbonyl	999999
 
-醛	aldehyde
+醛	aldehyde	999999
 
-酮	ketone
+酮	ketone	999999
 
-烯酮	ketene
-烯酮	enone
+烯酮	ketene	999999
+烯酮	enone	999999
 
-炔酮	ynone
+炔酮	ynone	999999
 
 # 羧基
-羧基	carboxyl
-羧基	carbox
+羧基	carboxyl	999999
+羧基	carbox	999999
 
 # 乙酰氧基
-乙酰氧基	acetoxy
+乙酰氧基	acetoxy	999999
 
 # 酯
-酯	ester
+酯	ester	999999
 
 # 亚甲二氧基
-亚甲二氧基	methylenedioxy
+亚甲二氧基	methylenedioxy	999999
 
 
 # 氢氧根
-氢氧离子	oh
-14280-30-9	oh
-14280-30-9	ohcas
+氢氧离子	oh	999999
+14280-30-9	oh	999999
+14280-30-9	ohcas	999999
+
+# Ryanodine
+Ryanodine	ry	999999
 
 # 烃
-烷烃	alkane
-石蜡烃	paraffin
-烷烃	paraffin
+烷烃	alkane	999999
+石蜡烃	paraffin	999999
+烷烃	paraffin	999999
 
-烯烃	alkene
+烯烃	alkene	999999
 
-炔烃	alkyne
+炔烃	alkyne	999999
 
 # 全名&缩写&CAS
-甲醇	methanol
+甲醇	methanol	999999
 # 木醇/木精
-甲醇	mu chun
-甲醇	mu jing
-甲醇	meoh
-67-56-1	methanol
-67-56-1	methanolcas
-67-56-1	meoh
-67-56-1	meohcas
+甲醇	mu chun	999999
+甲醇	mu jing	999999
+甲醇	meoh	999999
+67-56-1	methanol	999999
+67-56-1	methanolcas	999999
+67-56-1	meoh	999999
+67-56-1	meohcas	999999
 
 # 全名&缩写&CAS
-乙醇	ethanol
-乙醇	etoh
-64-17-5	ethanol
-64-17-5	ethanolcas
-64-17-5	etoh
-64-17-5	etohcas
+乙醇	ethanol	999999
+乙醇	etoh	999999
+64-17-5	ethanol	999999
+64-17-5	ethanolcas	999999
+64-17-5	etoh	999999
+64-17-5	etohcas	999999
 
 # 全名&CAS
-立方烷	cubane
-277-10-1	cubane
-277-10-1	cubanecas
+立方烷	cubane	999999
+277-10-1	cubane	999999
+277-10-1	cubanecas	999999
 
 # 全名&CAS
-甲烷	methane
-74-82-8	methane
-74-82-8	methanecas
+甲烷	methane	999999
+74-82-8	methane	999999
+74-82-8	methanecas	999999
 
 # 全名&CAS
-乙烷	ethane
-74-84-0	ethane
-74-84-0	ethanecas
+乙烷	ethane	999999
+74-84-0	ethane	999999
+74-84-0	ethanecas	999999
 
 # 全名&CAS
-丙烷	propane
-74-98-6	propane
-74-98-6	propanecas
+丙烷	propane	999999
+74-98-6	propane	999999
+74-98-6	propanecas	999999
 
 # 全名&缩写&CAS
-三硝基苯酚	trinitrophenol
-三硝基苯酚	tnp
-三硝基苯酚	pa
-2,4,6-三硝基苯酚	trinitrophenol
-2,4,6-三硝基苯酚	tnp
-2,4,6-三硝基苯酚	pa
-苦味酸	ku wei suan
-三硝基苯酚	ku wei suan
-88-89-1	trinitrophenol
-88-89-1	trinitrophenolcas
-88-89-1	tnp
-88-89-1	tnpcas
-88-89-1	pa
-88-89-1	pacas
+三硝基苯酚	trinitrophenol	999999
+三硝基苯酚	tnp	999999
+三硝基苯酚	pa	999999
+2,4,6-三硝基苯酚	trinitrophenol	999999
+2,4,6-三硝基苯酚	tnp	999999
+2,4,6-三硝基苯酚	pa	999999
+苦味酸	ku wei suan	999999
+三硝基苯酚	ku wei suan	999999
+88-89-1	trinitrophenol	999999
+88-89-1	trinitrophenolcas	999999
+88-89-1	tnp	999999
+88-89-1	tnpcas	999999
+88-89-1	pa	999999
+88-89-1	pacas	999999
 
 # 全名&缩写&CAS
-三硝基甲苯	trinitrotoluene
-三硝基甲苯	tnt
-2,4,6-三硝基甲苯	trinitrotoluene
-2,4,6-三硝基甲苯	tnt
-118-96-7	trinitrotoluene
-118-96-7	trinitrotoluenecas
-118-96-7	tnt
-118-96-7	tntcas
+三硝基甲苯	trinitrotoluene	999999
+三硝基甲苯	tnt	999999
+2,4,6-三硝基甲苯	trinitrotoluene	999999
+2,4,6-三硝基甲苯	tnt	999999
+118-96-7	trinitrotoluene	999999
+118-96-7	trinitrotoluenecas	999999
+118-96-7	tnt	999999
+118-96-7	tntcas	999999
 
 # 缩写&CAS
-黑索金	rdx
-旋风炸药	rdx
-121-82-4	rdx
-121-82-4	rdxcas
+黑索金	rdx	999999
+旋风炸药	rdx	999999
+121-82-4	rdx	999999
+121-82-4	rdxcas	999999
 
 # 缩写&CAS
-三过氧化三丙酮	tatp
-过氧化三环丙酮	tatp
-撒旦之母	tatp
-17088-37-8	tatp
-17088-37-8	tatpcas
+三过氧化三丙酮	tatp	999999
+过氧化三环丙酮	tatp	999999
+撒旦之母	tatp	999999
+17088-37-8	tatp	999999
+17088-37-8	tatpcas	999999
 
 # 缩写&CAS
-六亚甲基三过氧化二胺	hmtd
-六甲氧胺	hmtd
-283-66-9	hmtd
-283-66-9	hmtdcas
+六亚甲基三过氧化二胺	hmtd	999999
+六甲氧胺	hmtd	999999
+283-66-9	hmtd	999999
+283-66-9	hmtdcas	999999
 
 # 缩写&CAS
-环四亚甲基四硝胺	hmx
-奥克托金	hmx
-2691-41-0	hmx
-2691-41-0	hmxcas
+环四亚甲基四硝胺	hmx	999999
+奥克托金	hmx	999999
+2691-41-0	hmx	999999
+2691-41-0	hmxcas	999999
 
 # 全名&缩写&CAS
-雷酸	oxidoazaniumylidynemethane
-雷酸	fulminic
-506-85-4	oxidoazaniumylidynemethane
-506-85-4	oxidoazaniumylidynemethanecas
-506-85-4	fulminic
-506-85-4	fulminiccas
+雷酸	oxidoazaniumylidynemethane	999999
+雷酸	fulminic	999999
+506-85-4	oxidoazaniumylidynemethane	999999
+506-85-4	oxidoazaniumylidynemethanecas	999999
+506-85-4	fulminic	999999
+506-85-4	fulminiccas	999999
 
 # 全名&缩写&CAS
-二硝基重氮酚	diazodinitrophenol
-二硝基重氮酚	ddnp
-4682-03-5	diazodinitrophenol
-4682-03-5	diazodinitrophenolcas
-4682-03-5	ddnp
-4682-03-5	ddnpcas
+二硝基重氮酚	diazodinitrophenol	999999
+二硝基重氮酚	ddnp	999999
+4682-03-5	diazodinitrophenol	999999
+4682-03-5	diazodinitrophenolcas	999999
+4682-03-5	ddnp	999999
+4682-03-5	ddnpcas	999999
 
 # 全名&CAS
-收敛铅酸	tricinat
-史蒂芬铅	tricinat
-收敛铅酸	bis
-史蒂芬铅	bis
-收敛铅酸	bisolate
-史蒂芬铅	bisolate
-15245-44-0	tricinat
-15245-44-0	tricinatcas
-15245-44-0	bis
-15245-44-0	biscas
-15245-44-0	bisolate
-15245-44-0	bisolatecas
+收敛铅酸	tricinat	999999
+史蒂芬铅	tricinat	999999
+收敛铅酸	bis	999999
+史蒂芬铅	bis	999999
+收敛铅酸	bisolate	999999
+史蒂芬铅	bisolate	999999
+15245-44-0	tricinat	999999
+15245-44-0	tricinatcas	999999
+15245-44-0	bis	999999
+15245-44-0	biscas	999999
+15245-44-0	bisolate	999999
+15245-44-0	bisolatecas	999999
 
 # 全名&缩写&CAS
-雷酸汞	mercury fulminate
-雷酸汞	mf
-雷汞	mercury fulminate
-雷汞	mf
-628-86-4	mf
-628-86-4	mfcas
+雷酸汞	mercury fulminate	999999
+雷酸汞	mf	999999
+雷汞	mercury fulminate	999999
+雷汞	mf	999999
+628-86-4	mf	999999
+628-86-4	mfcas	999999
 
 # 全名&缩写&CAS
-三硝基苯甲硝胺	tetryl
-三硝基苯甲硝胺	tet
-特屈儿	tetryl
-特屈儿	tet
-2,4,6-三硝基苯甲硝胺	tetryl
-2,4,6-三硝基苯甲硝胺	tet
-479-45-8	tetryl
-479-45-8	tetrylcas
-479-45-8	tet
-479-45-8	tetcas
+三硝基苯甲硝胺	tetryl	999999
+三硝基苯甲硝胺	tet	999999
+特屈儿	tetryl	999999
+特屈儿	tet	999999
+2,4,6-三硝基苯甲硝胺	tetryl	999999
+2,4,6-三硝基苯甲硝胺	tet	999999
+479-45-8	tetryl	999999
+479-45-8	tetrylcas	999999
+479-45-8	tet	999999
+479-45-8	tetcas	999999
 
 # 全名&缩写&CAS
-八硝基立方烷	octanitrocubane
-八硝基立方烷	onc
-99393-63-2	octanitrocubane
-99393-63-2	octanitrocubanecas
-99393-63-2	onc
-99393-63-2	onccas
+八硝基立方烷	octanitrocubane	999999
+八硝基立方烷	onc	999999
+99393-63-2	octanitrocubane	999999
+99393-63-2	octanitrocubanecas	999999
+99393-63-2	onc	999999
+99393-63-2	onccas	999999
 
 # 全名&缩写&CAS
-硝酸甘油	nitroglycerin
-硝酸甘油	ntg
-硝酸甘油	ng
-55-63-0	nitroglycerin
-55-63-0	nitroglycerincas
-55-63-0	ntg
-55-63-0	ntgcas
-55-63-0	ng
-55-63-0	ngcas
+硝酸甘油	nitroglycerin	999999
+硝酸甘油	ntg	999999
+硝酸甘油	ng	999999
+55-63-0	nitroglycerin	999999
+55-63-0	nitroglycerincas	999999
+55-63-0	ntg	999999
+55-63-0	ntgcas	999999
+55-63-0	ng	999999
+55-63-0	ngcas	999999
 
 # 全名&缩写&CAS
-季戊四醇四硝酸酯	pentyl
-季戊四醇四硝酸酯	pent
-78-11-5	pentyl
-78-11-5	pentylcas
-78-11-5	pent
-78-11-5	pentcas
+季戊四醇四硝酸酯	pentyl	999999
+季戊四醇四硝酸酯	pent	999999
+78-11-5	pentyl	999999
+78-11-5	pentylcas	999999
+78-11-5	pent	999999
+78-11-5	pentcas	999999
 
 # 全名&CAS
-丁烷	butane
-106-97-8	butane
-106-97-8	butanecas
-异丁烷	isobutane
-异丁烷	methylpropane
-75-28-5	isobutane
-75-28-5	isobutanecas
-75-28-5	methylpropane
-75-28-5	methylpropanecas
+丁烷	butane	999999
+106-97-8	butane	999999
+106-97-8	butanecas	999999
+异丁烷	isobutane	999999
+异丁烷	methylpropane	999999
+75-28-5	isobutane	999999
+75-28-5	isobutanecas	999999
+75-28-5	methylpropane	999999
+75-28-5	methylpropanecas	999999
 
 # 全名&CAS
-戊烷	pentane
-109-66-0	pentane
-109-66-0	pentanecas
-异戊烷	isopentane
-78-78-4	isopentane
-78-78-4	isopentanecas
-新戊烷	neopentane
-463-82-1	neopentane
-463-82-1	neopentanecas
+戊烷	pentane	999999
+109-66-0	pentane	999999
+109-66-0	pentanecas	999999
+异戊烷	isopentane	999999
+78-78-4	isopentane	999999
+78-78-4	isopentanecas	999999
+新戊烷	neopentane	999999
+463-82-1	neopentane	999999
+463-82-1	neopentanecas	999999
 
 
 
 # 全名
-鸦片	opium
+鸦片	opium	999999
 # 缩写
-鸦片	opi
+鸦片	opi	999999
 # 罗马化缩写
-鸦片	afy
+鸦片	afy	999999
 
 # 全名
-曲马多	tramadol
+曲马多	tramadol	999999
 # 商品名
-曲马多	tramal
-曲马多	ultram
-曲马多	tramacet
-曲马多	tramundin
-曲马多	tramalgot
+曲马多	tramal	999999
+曲马多	ultram	999999
+曲马多	tramacet	999999
+曲马多	tramundin	999999
+曲马多	tramalgot	999999
 # 缩写&CAS
-曲马多	trd
-27203-92-5	trd
-27203-92-5	trdcas
+曲马多	trd	999999
+27203-92-5	trd	999999
+27203-92-5	trdcas	999999
 
 # 全名
-芬太尼	fentanyl
-芬太尼	fentanil
+芬太尼	fentanyl	999999
+芬太尼	fentanil	999999
 # 商品名
-芬太尼	actiq
-芬太尼	duragesic
-芬太尼	fentora
-芬太尼	sublimaze
+芬太尼	actiq	999999
+芬太尼	duragesic	999999
+芬太尼	fentora	999999
+芬太尼	sublimaze	999999
 # 缩写&CAS
-芬太尼	fen
-芬太尼	fnt
-437-38-7	fen
-437-38-7	fencas
-437-38-7	fnt
-437-38-7	fntcas
+芬太尼	fen	999999
+芬太尼	fnt	999999
+437-38-7	fen	999999
+437-38-7	fencas	999999
+437-38-7	fnt	999999
+437-38-7	fntcas	999999
 
 # 全名
-卡芬太尼	carfentanyl
-卡芬太尼	carfentanil
+卡芬太尼	carfentanyl	999999
+卡芬太尼	carfentanil	999999
 # 商品名
-卡芬太尼	wildnil
+卡芬太尼	wildnil	999999
 # 缩写&CAS
-卡芬太尼	cfn
-卡芬太尼	cfnt
-59708-52-0	cfn
-59708-52-0	cfncas
-59708-52-0	cfnt
-59708-52-0	cfntcas
+卡芬太尼	cfn	999999
+卡芬太尼	cfnt	999999
+59708-52-0	cfn	999999
+59708-52-0	cfncas	999999
+59708-52-0	cfnt	999999
+59708-52-0	cfntcas	999999
 
 # 全名
-哌甲酯	methylphenidate
+哌甲酯	methylphenidate	999999
 # 商品名
-哌甲酯	ritalin
-哌甲酯	rilatine
-哌甲酯	concerta
-哌甲酯	medikinet
-哌甲酯	adaphen
-哌甲酯	addwize
-哌甲酯	inspiral
-哌甲酯	methmild
-哌甲酯	artige
-哌甲酯	attenta
-哌甲酯	cognil
-哌甲酯	konsenidat
-哌甲酯	foquest
-哌甲酯	methylin
-哌甲酯	penid
-哌甲酯	phenida
-哌甲酯	prohiper
-哌甲酯	tradea
+哌甲酯	ritalin	999999
+哌甲酯	rilatine	999999
+哌甲酯	concerta	999999
+哌甲酯	medikinet	999999
+哌甲酯	adaphen	999999
+哌甲酯	addwize	999999
+哌甲酯	inspiral	999999
+哌甲酯	methmild	999999
+哌甲酯	artige	999999
+哌甲酯	attenta	999999
+哌甲酯	cognil	999999
+哌甲酯	konsenidat	999999
+哌甲酯	foquest	999999
+哌甲酯	methylin	999999
+哌甲酯	penid	999999
+哌甲酯	phenida	999999
+哌甲酯	prohiper	999999
+哌甲酯	tradea	999999
 # 缩写
-哌甲酯	mph
-20748-11-2	mph
-20748-11-2	mphcas
+哌甲酯	mph	999999
+20748-11-2	mph	999999
+20748-11-2	mphcas	999999
 
 # 全名
-右美沙芬	dextromethorphan
+右美沙芬	dextromethorphan	999999
 # 商品名
-右美沙芬	benylindm
-右美沙芬	mucinexdm
-右美沙芬	camydex
-右美沙芬	robitussin
-右美沙芬	nyquil
-右美沙芬	dimetapp
-右美沙芬	vicks
-右美沙芬	coricidin
-右美沙芬	delsym
-右美沙芬	theraflu
-右美沙芬	charcoald
+右美沙芬	benylindm	999999
+右美沙芬	mucinexdm	999999
+右美沙芬	camydex	999999
+右美沙芬	robitussin	999999
+右美沙芬	nyquil	999999
+右美沙芬	dimetapp	999999
+右美沙芬	vicks	999999
+右美沙芬	coricidin	999999
+右美沙芬	delsym	999999
+右美沙芬	theraflu	999999
+右美沙芬	charcoald	999999
 # 缩写&CAS
 右美沙芬	dxm
-125-71-3（右美沙芬）	dxm
-125-71-3（右美沙芬）	dxmcas
-125-71-3	dxm
-125-71-3	dxmcas
+125-71-3（右美沙芬）	dxm	999999
+125-71-3（右美沙芬）	dxmcas	999999
+125-71-3	dxm	999999
+125-71-3	dxmcas	999999
 
 # 全名
-地塞米松	dexamethasone
+地塞米松	dexamethasone	999999
 # 商品名
-地塞米松	decadron
-地塞米松	ozurdex
-地塞米松	dexycu
+地塞米松	decadron	999999
+地塞米松	ozurdex	999999
+地塞米松	dexycu	999999
 # 缩写&CAS
-地塞米松	dxms
-地塞米松	dxm
-50-02-2（地塞米松）	dxm
-50-02-2（地塞米松）	dxmcas
-50-02-2	dxm
-50-02-2	dxmcas
-50-02-2	dxms
-50-02-2	dxmscas
+地塞米松	dxms	999999
+地塞米松	dxm	999999
+50-02-2（地塞米松）	dxm	999999
+50-02-2（地塞米松）	dxmcas	999999
+50-02-2	dxm	999999
+50-02-2	dxmcas	999999
+50-02-2	dxms	999999
+50-02-2	dxmscas	999999
 
 # 全名
-雌二醇	estradiol
+雌二醇	estradiol	999999
+雌二醇	e2	999999
+50-28-2	e2	999999
+50-28-2	e2cas	999999
 # 缩写&CAS | 原缩写e2
-雌二醇	ew
-雌二醇	ee
-50-28-2	ew
-50-28-2	ewcas
-50-28-2	ee
-50-28-2	eecas
+雌二醇	ew	999999
+50-28-2	ew	999999
+50-28-2	ewcas	999999
 
 # 全名
-睾酮	testosterone
-睾酮	te
+睾酮	testosterone	999999
+睾酮	te	999999
 # 商品名
-睾酮	androderm
-睾酮	delatestryl
+睾酮	androderm	999999
+睾酮	delatestryl	999999
 # 缩写&CAS
-58-22-0	testosterone
-58-22-0	testosteronecas
-58-22-0	te
-58-22-0	tecas
+58-22-0	testosterone	999999
+58-22-0	testosteronecas	999999
+58-22-0	te	999999
+58-22-0	tecas	999999
 
 # 全名
-甲基苯丙胺	methamphetamine
-甲基苯丙胺	desoxyephedrine
+甲基苯丙胺	methamphetamine	999999
+甲基苯丙胺	desoxyephedrine	999999
 # 商品名
-甲基苯丙胺	desoxyn
+甲基苯丙胺	desoxyn	999999
 # CAS
-537-46-2	methamphetamine
-537-46-2	methamphetaminecas
-537-46-2	desoxyephedrine
-537-46-2	desoxyephedrinecas
-537-46-2	desoxyn
-537-46-2	desoxyncas
+537-46-2	methamphetamine	999999
+537-46-2	methamphetaminecas	999999
+537-46-2	desoxyephedrine	999999
+537-46-2	desoxyephedrinecas	999999
+537-46-2	desoxyn	999999
+537-46-2	desoxyncas	999999
 # 俗名
-甲基苯丙胺	bing du
-甲基苯丙胺	zhu rou
+甲基苯丙胺	bing du	999999
+甲基苯丙胺	zhu rou	999999
 
 # 全名
-苯丙胺	amphetamine
-苯丙胺	amfetamine
+苯丙胺	amphetamine	999999
+苯丙胺	amfetamine	999999
 # 商品名
-苯丙胺	adderall
-苯丙胺	evekeo
-苯丙胺	dexedrine
-苯丙胺	procentra
-苯丙胺	zenzedi
-苯丙胺	vyvanse
+苯丙胺	adderall	999999
+苯丙胺	evekeo	999999
+苯丙胺	dexedrine	999999
+苯丙胺	procentra	999999
+苯丙胺	zenzedi	999999
+苯丙胺	vyvanse	999999
 # CAS
-300-62-9	amphetamine
-300-62-9	amphetaminecas
-300-62-9	amfetamine
-300-62-9	amfetaminecas
+300-62-9	amphetamine	999999
+300-62-9	amphetaminecas	999999
+300-62-9	amfetamine	999999
+300-62-9	amfetaminecas	999999
 # 俗名
-苯丙胺	ben bing an
-安非他明	an fei ta ming
-苯丙胺	an fei ta ming
+苯丙胺	ben bing an	999999
+安非他明	an fei ta ming	999999
+苯丙胺	an fei ta ming	999999
 
 # 全名
-亚甲二氧甲基苯丙胺	methylenedioxymethamphetamine
+亚甲二氧甲基苯丙胺	methylenedioxymethamphetamine	999999
 # 缩写&CAS
-亚甲二氧甲基苯丙胺	mdma
-42542-10-9	mdma
-42542-10-9	mdmacas
+亚甲二氧甲基苯丙胺	mdma	999999
+42542-10-9	mdma	999999
+42542-10-9	mdmacas	999999
 # 俗名
-摇头丸	yao tou wan
-亚甲二氧甲基苯丙胺	yao tou wan
+摇头丸	yao tou wan	999999
+亚甲二氧甲基苯丙胺	yao tou wan	999999
 
 # 全名
-二苯基脯氨醇	diphenylprolinol
+二苯基脯氨醇	diphenylprolinol	999999
 # 缩写&CAS
+二苯基脯氨醇	d2pm	999999
+22348-32-9	d2pm	999999
+22348-32-9	d2pmcas	999999
 # 原缩写为d2pm
-二苯基脯氨醇	dwpm
-22348-32-9	dwpm
-22348-32-9	dwpmcas
+二苯基脯氨醇	dwpm	999999
+22348-32-9	dwpm	999999
+22348-32-9	dwpmcas	999999
 
 
 
@@ -853,128 +1050,128 @@ import_tables:
 # 前缀 ce- 表示 chemical element
 
 # 第一周期
-氢	ceh
-氦	cehe
+氢	ceh	999999
+氦	cehe	999999
 # 第二周期
-锂	ce li
-铍	cebe
-硼	ceb
-碳	cec
-氮	cen
-氧	ceo
-氟	cef
-氖	cene
+锂	celi	999999
+铍	cebe	999999
+硼	ceb	999999
+碳	cec	999999
+氮	cen	999999
+氧	ceo	999999
+氟	cef	999999
+氖	cene	999999
 # 第三周期
-钠	cena
-镁	cemg
-铝	ceal
-硅	cesi
-磷	cep
-硫	ces
-氯	cecl
-氩	cear
+钠	cena	999999
+镁	cemg	999999
+铝	ceal	999999
+硅	cesi	999999
+磷	cep	999999
+硫	ces	999999
+氯	cecl	999999
+氩	cear	999999
 # 第四周期
-钾	cek
-钙	ceca
-钪	cesc
-钛	ceti
-矾	cevb
-铬	cecr
-锰	cemn
-铁	cefe
-钴	ceco
-镍	ceni
-铜	cecu
-锌	cezn
-镓	cega
-锗	cege
-砷	ceas
-硒	cese
-溴	cebr
-氪	cekr
+钾	cek	999999
+钙	ceca	999999
+钪	cesc	999999
+钛	ceti	999999
+矾	cevb	999999
+铬	cecr	999999
+锰	cemn	999999
+铁	cefe	999999
+钴	ceco	999999
+镍	ceni	999999
+铜	cecu	999999
+锌	cezn	999999
+镓	cega	999999
+锗	cege	999999
+砷	ceas	999999
+硒	cese	999999
+溴	cebr	999999
+氪	cekr	999999
 # 第五周期
-铷	cerb
-锶	cesr
-钇	cey
-锆	cezr
-铌	cenb
-钼	cemo
-锝	cetc
-钌	ceru
-铑	cerh
-钯	cepd
-银	ceag
-镉	cecd
-铟	cein
-锡	cesn
-锑	cesb
-碲	cete
-碘	cei
-氙	cexe
+铷	cerb	999999
+锶	cesr	999999
+钇	cey	999999
+锆	cezr	999999
+铌	cenb	999999
+钼	cemo	999999
+锝	cetc	999999
+钌	ceru	999999
+铑	cerh	999999
+钯	cepd	999999
+银	ceag	999999
+镉	cecd	999999
+铟	cein	999999
+锡	cesn	999999
+锑	cesb	999999
+碲	cete	999999
+碘	cei	999999
+氙	cexe	999999
 # 第六周期
-铯	cecs
-钡	ceba
-镧	cela
-铈	cece
-镨	cepr
-钕	cend
-钷	cepm
-钐	cesm
-铕	ceeu
-钆	cegd
-铽	cetb
-镝	cedy
-钬	ceho
-铒	ceer
-铥	cetm
-镱	ceyb
-镥	celu
-铪	cehf
-钽	ceta
-钨	cew
-铼	cere
-锇	ceos
+铯	cecs	999999
+钡	ceba	999999
+镧	cela	999999
+铈	cece	999999
+镨	cepr	999999
+钕	cend	999999
+钷	cepm	999999
+钐	cesm	999999
+铕	ceeu	999999
+钆	cegd	999999
+铽	cetb	999999
+镝	cedy	999999
+钬	ceho	999999
+铒	ceer	999999
+铥	cetm	999999
+镱	ceyb	999999
+镥	celu	999999
+铪	cehf	999999
+钽	ceta	999999
+钨	cew	999999
+铼	cere	999999
+锇	ceos	999999
 铱	ceir
-铂	cept
-金	ceau
-汞	cehg
-铊	cetl
-铅	cepb
-铋	cebi
-钋	cepo
-砹	ceat
-氡	cern
+铂	cept	999999
+金	ceau	999999
+汞	cehg	999999
+铊	cetl	999999
+铅	cepb	999999
+铋	cebi	999999
+钋	cepo	999999
+砹	ceat	999999
+氡	cern	999999
 # 第七周期
-钫	cefr
-镭	cera
-锕	ceac
-钍	ceth
-镤	cepa
-铀	ceu
-镎	cenp
-钚	cepu
-镅	ceam
-锔	cecm
-锫	cebk
-锎	cecf
-锿	cees
-镄	cefm
-钔	cemd
-锘	ceno
-铹	celr
-𬬻	cerf
-𬭊	cedb
-𬭳	cesg
-𬭛	cebh
-𬭶	cehs
-鿏	cemt
-𫟼	ceds
-𬬭	cerg
-鿔	cecn
-鿭	cenh
-𫓧	cefl
-镆	cemc
-𫟷	celv
-鿬	cets
-鿫	ceog
+钫	cefr	999999
+镭	cera	999999
+锕	ceac	999999
+钍	ceth	999999
+镤	cepa	999999
+铀	ceu	999999
+镎	cenp	999999
+钚	cepu	999999
+镅	ceam	999999
+锔	cecm	999999
+锫	cebk	999999
+锎	cecf	999999
+锿	cees	999999
+镄	cefm	999999
+钔	cemd	999999
+锘	ceno	999999
+铹	celr	999999
+𬬻	cerf	999999
+𬭊	cedb	999999
+𬭳	cesg	999999
+𬭛	cebh	999999
+𬭶	cehs	999999
+鿏	cemt	999999
+𫟼	ceds	999999
+𬬭	cerg	999999
+鿔	cecn	999999
+鿭	cenh	999999
+𫓧	cefl	999999
+镆	cemc	999999
+𫟷	celv	999999
+鿬	cets	999999
+鿫	ceog	999999
 
